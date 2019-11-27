@@ -1,0 +1,40 @@
+[GENERAL]
+module = 'model.slaveModel'
+class = 'SlaveModel'
+filename = u'project\\IO_CORE\\CPU1\\property.txt'
+[ATTRIBUTES]
+name = 'CPU1'
+nodesInfo = []
+master = u'Tera_7'
+slave_model = 'IO_Core\\CPU1'
+connection = u'CAN_line'
+varname_prefix = u'IO_'
+[OBJECT_DICTIONARY]
+1017/0 = 500
+1800/1 = 386
+1800/5 = 500
+1801/1 = 642
+1801/5 = 100
+1802/1 = 898
+1802/5 = 100
+1803/1 = 1154
+1803/5 = 100
+1804/1 = 1282
+1804/5 = 100
+2001/0 = 2
+2002/0 = 5
+2003/0 = 2
+5FF5/1 = 0
+5FF5/2 = 0
+5FF5/3 = 0
+5FF5/4 = 0
+5FF5/5 = 0
+5FF5/6 = 0
+5FF5/7 = 0
+5FF5/8 = 0
+5FF5/9 = 0
+5FF5/10 = 0
+5FF5/11 = 0
+5FF5/12 = 0
+5FF5/13 = 0
+5FF5/14 = 0

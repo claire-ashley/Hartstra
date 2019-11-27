@@ -1,0 +1,10 @@
+[GENERAL]
+create_date = '2017-03-06-07.46.52'
+module = 'model.rootModel'
+class = 'Vt3Root'
+filename = u'Hartstra_10041_V0.1.vt3'
+version = '8.9.0.3-PATCH'
+build = 2249
+[ATTRIBUTES]
+name = 'Hidden root'
+nodesInfo = [('project', 'ProjectModel')]

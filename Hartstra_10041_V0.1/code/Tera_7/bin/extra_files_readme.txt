@@ -1,0 +1,1 @@
+Please add to this directory the files that you want to load into the device togheter with the compiled binary code and other resources

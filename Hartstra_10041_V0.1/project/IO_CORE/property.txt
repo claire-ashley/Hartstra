@@ -1,0 +1,8 @@
+[GENERAL]
+module = 'model.compositeSlaveModel'
+class = 'CompositeSlaveModel'
+filename = u'project\\IO_CORE\\property.txt'
+[ATTRIBUTES]
+name = u'IO_CORE'
+nodesInfo = [('CPU0', 'SlaveModel'), ('CPU1', 'SlaveModel')]
+slave_model = 'IO_Core'

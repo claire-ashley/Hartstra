@@ -1,0 +1,336 @@
+[GENERAL]
+bigfile = 1
+module = 'model.library'
+class = 'LibraryModel'
+filename = u'project\\UTILITY_Lib\\property.txt'
+[ATTRIBUTES]
+name = u'UTILITY_Lib'
+library_comment = u'UTILITY library\n\n - 1.0.0.0 - Implemented utility for ALL-DEVICE\n                     1) get_prj_version: \t        implemented utility to retrieve the version of the project VT3;\n\n - 1.0.0.1 - Implemented utility to convert VT3 type in an other VT3 type\n                     1) BYTE_TO_ASCII: \t        conversion byte to ascii character;\n\n - 1.0.0.2 - Implemented utility for CANVIEW3P and IO_CAB;\n\n - 1.0.0.3 - Array size increased to 20 (DIM_BUFFER_20);\n\n - 1.0.0.4 - Implemented utility for ALGA MPC;\n\n - 1.0.0.5 - Implemented utility for CANVIEW3+, MGBRIDGE e  GIGA_0560000_01;\n\n - 1.0.0.6 - Implemented utility for TERA_FLEX, POWER_BRIDGE;\n\n - 1.0.0.7 - Implemented utility for TERA_FLEX_LANDSCAPE, TERA_EOLOADER, TERA12_QT e TERA7_QT;\n\n - 1.0.0.8 - Remove following device CLS06, I-TOP and VIEW;\n                  Implemented utility for T_BOX and MGRPM;\n\n - 1.0.0.9 - Upgrade "BYTE_TO_ASCII" and "get_prj_version" function;\n\n - 1.0.1.1 - Implemented utility for MGRPM, eLIFT, removed TERA8P;\n\n - 1.0.1.2 - Compiled with VT3 v8.x\n\n - 1.0.1.3 - Implemented utility for CANVIEW4;\n\n - 1.0.1.4 - Add function: ST_TRANSLATE(...) for translate IDS_STRING;\n\n - 1.0.1.5 - Implemented utility for Truckontrol;\n\n - 1.0.1.6 - Implemented utility for ALGA_EVO;'
+version = u'1.0.1.6'
+build_number = 124
+build_date_time = "'2016-12-13-18.23.00'"
+build_username = 'LucaGrossi'
+runtime_targets = ['3B2', 'ALGA_MPC', 'ALGA_TFT_1_1', 'ALGA_TFT_1_2', 'ALGA_TFT_2_1', 'ALGA_TFT_2_2', 'CANVIEW3+', 'CANVIEW3P+', 'CANVIEW4', 'CLS35', 'CLS2LE', 'CLS2LE_LMI', 'CLS35_LMI', 'CANVIEW3', 'CANVIEW3P', 'CANVIEW3_W', 'CANVIEW3P_W', 'DINGLI', 'ECOMATRIX', 'GIGA_05600005_01', 'GIGA_05600011', 'Nodo154B', 'IO_Cabin', 'LE70', 'MC2M_Master', 'MC2M_2CPU\\CPU0', 'MC2M_2CPU\\CPU1', 'MC2M_2CPU_LMI\\CPU0', 'MC2M_2CPU_LMI\\CPU1', 'MGBRIDGE', 'MGRPM', 'MIDAC+_ANA', 'MIDAC+_DIG', 'MIDAC+_DIG_ANA', 'PC_Windows', 'POWER_BRIDGE', 'Nodo153B', 'RECALL', 'TERA12', 'TERA4', 'TERA6', 'TERA7', 'TERA7FLEX_L', 'TERA7FLEX', 'TERA7_VDS', 'TERA7P', 'TERA7P15keys', 'TERA7P15keysL3B6', 'TERA8', 'TERA9', 'TERA_HE', 'TERA12_EOloader', 'TERA12_Qt', 'TERA7_Qt', 'TERA7_Qt_L3B6', 'T_BOX', 'T_BOX_BM', 'Truckontrol', 'UAV', 'view2_colour_horizontal', 'view2_colour_horizontal_IO', 'view2_colour_vertical', 'view2_colour_vertical_IO', 'view512_colour_horizontal', 'view512_colour_horizontal_IO', 'view512_colour_vertical', 'view512_colour_vertical_IO', 'eLIFT']
+device_use = [u'Tera_7']
+codegen_version = 1
+vt3_version = '8.9.0.1-RC3'
+source = 0
+
+<childs fullname="/project/UTILITY_Lib">
+
+<node fullname="/project/UTILITY_Lib/VERSION">
+
+[GENERAL]
+bigfile = 1
+module = 'model.folderModel'
+class = 'FolderModel'
+[ATTRIBUTES]
+name = u'VERSION'
+documentation = u'======================================================\n ======    Implemented utility to retrieve the version of the project VT3    =====\n ======================================================\n\n                1) get_prj_version: \t                   Retrieving version of the project VT3 into STRING;\n                2) get_prj_version_byte: \tRetrieving version of the project VT3 into array of BYTE;'
+private = False
+
+<childs fullname="/project/UTILITY_Lib/VERSION">
+
+<node fullname="/project/UTILITY_Lib/VERSION/VERSION_STRING">
+
+[GENERAL]
+bigfile = 1
+module = 'model.folderModel'
+class = 'FolderModel'
+[ATTRIBUTES]
+name = u'VERSION_STRING'
+documentation = u"======================================================\n ======    Implemented utility to retrieve the version of the project VT3    =====\n ======================================================\n\n                Description: \tRetrieving version of the project VT3;\n\n                Return:\t\tout_vt3_prj_version:        retrieving version of the project VT3, 'ERROR' if the length is greater to 20 characters.\n\n ================================\n ===== Example to testing this function =====\n ================================\n               \n                 // Global data\n                vt3_prj_version STRING[20];\n\nST:\n                 get_prj_version;\n                 vt3_prj_version := get_prj_version.out_vt3_prj_version;\n\nFBD:\n                 Use the corresponding block;"
+private = False
+
+<childs fullname="/project/UTILITY_Lib/VERSION/VERSION_STRING">
+
+<node fullname="/project/UTILITY_Lib/VERSION/VERSION_STRING/get_prj_version">
+
+[GENERAL]
+bigfile = 1
+module = 'model.POU_Model'
+class = 'POU_PROGRAM'
+[ATTRIBUTES]
+name = u'get_prj_version'
+pou_type = 'PROGRAM'
+body_language = 'C'
+pou_comment = u'Retrieving version of the project VT3'
+last_excel_import_export_filename = ''
+[VARIABLES]
+count = 1
+[VAR_0]
+name = u'out_vt3_prj_version'
+vartype = u'STRING[20]'
+address = ''
+alias = False
+init = u"'ERROR'"
+inp = False
+out = True
+temp = False
+constant = False
+comment = u'VT3 project version'
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''
+
+</node fullname="/project/UTILITY_Lib/VERSION/VERSION_STRING/get_prj_version">
+
+</childs fullname="/project/UTILITY_Lib/VERSION/VERSION_STRING">
+
+</node fullname="/project/UTILITY_Lib/VERSION/VERSION_STRING">
+
+<node fullname="/project/UTILITY_Lib/VERSION/VERSION_BYTE">
+
+[GENERAL]
+bigfile = 1
+module = 'model.folderModel'
+class = 'FolderModel'
+[ATTRIBUTES]
+name = u'VERSION_BYTE'
+documentation = u"======================================================\n ======    Implemented utility to retrieve the version of the project VT3    =====\n ======================================================\n\n                Description: \tRetrieving version of the project VT3;\n\n                Return:\t\tout_vt3_prj_version:        retrieving version of the project VT3, 'ERROR' if the length is greater to 20 BYTE\n\n ================================\n ===== Example to testing this function =====\n ================================\n               \n                 // Global data\n                vt3_prj_version ARR_BYTE_version\n\nST:\n                 get_prj_version;\n                 vt3_prj_version := get_prj_version_byte.out_vt3_prj_version;\n\nFBD:\n                 Use the corresponding block;"
+private = False
+
+<childs fullname="/project/UTILITY_Lib/VERSION/VERSION_BYTE">
+
+<node fullname="/project/UTILITY_Lib/VERSION/VERSION_BYTE/get_prj_version_byte">
+
+[GENERAL]
+bigfile = 1
+module = 'model.POU_Model'
+class = 'POU_PROGRAM'
+[ATTRIBUTES]
+name = u'get_prj_version_byte'
+pou_type = 'PROGRAM'
+body_language = 'C'
+pou_comment = u'Retrieving version of the project VT3'
+last_excel_import_export_filename = ''
+[VARIABLES]
+count = 1
+[VAR_0]
+name = u'out_vt3_prj_version'
+vartype = u'ARR_BYTE_version'
+address = ''
+alias = False
+init = u'[0x45, 0x52, 0x52, 0x4F, 0x52]'
+inp = False
+out = True
+temp = False
+constant = False
+comment = u'VT3 project version'
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''
+
+</node fullname="/project/UTILITY_Lib/VERSION/VERSION_BYTE/get_prj_version_byte">
+
+<node fullname="/project/UTILITY_Lib/VERSION/VERSION_BYTE/ARR_BYTE_version">
+
+[GENERAL]
+bigfile = 1
+module = 'model.typedefModel'
+class = 'TypedefModel'
+[ATTRIBUTES]
+name = u'ARR_BYTE_version'
+
+<typedef fullname="/project/UTILITY_Lib/VERSION/VERSION_BYTE/ARR_BYTE_version">
+
+
+ARRAY [0..20] OF BYTE
+
+
+</typedef fullname="/project/UTILITY_Lib/VERSION/VERSION_BYTE/ARR_BYTE_version">
+
+</node fullname="/project/UTILITY_Lib/VERSION/VERSION_BYTE/ARR_BYTE_version">
+
+</childs fullname="/project/UTILITY_Lib/VERSION/VERSION_BYTE">
+
+</node fullname="/project/UTILITY_Lib/VERSION/VERSION_BYTE">
+
+</childs fullname="/project/UTILITY_Lib/VERSION">
+
+</node fullname="/project/UTILITY_Lib/VERSION">
+
+<node fullname="/project/UTILITY_Lib/CONVERSION">
+
+[GENERAL]
+bigfile = 1
+module = 'model.folderModel'
+class = 'FolderModel'
+[ATTRIBUTES]
+name = u'CONVERSION'
+documentation = u'======================================================\n ======   Implemented utility to convert VT3 type in an other VT3 type    =====\n ======================================================\n\n                1) BYTE_TO_ASCII:        conversion byte to ascii character;'
+private = False
+
+<childs fullname="/project/UTILITY_Lib/CONVERSION">
+
+<node fullname="/project/UTILITY_Lib/CONVERSION/BYTE_and_ASCII">
+
+[GENERAL]
+bigfile = 1
+module = 'model.folderModel'
+class = 'FolderModel'
+[ATTRIBUTES]
+name = u'BYTE_and_ASCII'
+documentation = u'======================================================\n======   Implemented utility to convert VT3 type in an other VT3 type    =====\n======================================================\n\n                Description: \tConversion byte to ascii character;\n\n                Parameters:\t                   byte_in:          byte to convert;\n\n                Return:\t\tchar_out:        returns the string containing the conversion of the ASCII character.\n\n ================================\n ===== Example to testing this function =====\n ================================\n               \n                // Global data\n                val_temp BYTE;\n                str_temp STRING[1];\n\nST:\n                  BYTE_TO_ASCII.byte_in := val_temp;\n                  BYTE_TO_ASCII;\n                  str_temp := BYTE_TO_ASCII.char_out;\n\nFBD:\n                 Use the corresponding block;'
+private = False
+
+<childs fullname="/project/UTILITY_Lib/CONVERSION/BYTE_and_ASCII">
+
+<node fullname="/project/UTILITY_Lib/CONVERSION/BYTE_and_ASCII/BYTE_TO_ASCII">
+
+[GENERAL]
+bigfile = 1
+module = 'model.POU_Model'
+class = 'POU_PROGRAM'
+[ATTRIBUTES]
+name = u'BYTE_TO_ASCII'
+pou_type = 'PROGRAM'
+body_language = 'C'
+pou_comment = u'Conversion byte to ascii character'
+last_excel_import_export_filename = ''
+[VARIABLES]
+count = 2
+[VAR_0]
+name = u'byte_in'
+vartype = u'BYTE'
+address = ''
+alias = False
+init = u''
+inp = True
+out = False
+temp = False
+constant = False
+comment = u'Input byte'
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''
+[VAR_1]
+name = u'char_out'
+vartype = u'STRING[1]'
+address = ''
+alias = False
+init = u''
+inp = False
+out = True
+temp = False
+constant = False
+comment = u'Output string'
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''
+
+</node fullname="/project/UTILITY_Lib/CONVERSION/BYTE_and_ASCII/BYTE_TO_ASCII">
+
+</childs fullname="/project/UTILITY_Lib/CONVERSION/BYTE_and_ASCII">
+
+</node fullname="/project/UTILITY_Lib/CONVERSION/BYTE_and_ASCII">
+
+</childs fullname="/project/UTILITY_Lib/CONVERSION">
+
+</node fullname="/project/UTILITY_Lib/CONVERSION">
+
+<node fullname="/project/UTILITY_Lib/TRANSLATE">
+
+[GENERAL]
+bigfile = 1
+module = 'model.folderModel'
+class = 'FolderModel'
+[ATTRIBUTES]
+name = u'TRANSLATE'
+documentation = u'======================================================\n ======                  Implemented utility to translate IDS_STRING                ======\n ======================================================\n\n                1) ST_TRANSLATE:        translate IDS_STRING;'
+private = False
+
+<childs fullname="/project/UTILITY_Lib/TRANSLATE">
+
+<node fullname="/project/UTILITY_Lib/TRANSLATE/ST_TRANSLATE">
+
+[GENERAL]
+bigfile = 1
+module = 'model.folderModel'
+class = 'FolderModel'
+[ATTRIBUTES]
+name = u'ST_TRANSLATE'
+documentation = u'======================================================\n ======                  Implemented utility to translate IDS_STRING                ======\n ======================================================\n\n                Description: \tTranslate IDS_STRING;\n\n                Parameters:\t                   ids:                   id string;\n                                                        language:        language to convert ids string;\n                Return:\t\tstr_out:            returns translated string.\n\n ================================\n ===== Example to testing this function =====\n ================================\n               \n                // Global data\n                ids_in                   ULINT;\n                str_temp              STRING;\n\nST:\n                  ST_TRANSLATE.ids := ids_in;\n                  ST_TRANSLATE.language := vt3_language;\n                  ST_TRANSLATE;\n                  str_temp := ST_TRANSLATE.str_out;\n\nFBD:\n                 Use the corresponding block;'
+private = False
+
+<childs fullname="/project/UTILITY_Lib/TRANSLATE/ST_TRANSLATE">
+
+<node fullname="/project/UTILITY_Lib/TRANSLATE/ST_TRANSLATE/ST_TRANSLATE">
+
+[GENERAL]
+bigfile = 1
+module = 'model.POU_Model'
+class = 'POU_FUNCTION'
+[ATTRIBUTES]
+name = u'ST_TRANSLATE'
+pou_type = 'FUNCTION'
+body_language = 'C'
+pou_comment = u'Translate IDS_STRING'
+last_excel_import_export_filename = ''
+return_type = u'STRING'
+[VARIABLES]
+count = 2
+[VAR_0]
+name = u'ids'
+vartype = u'UINT'
+address = ''
+alias = False
+init = u''
+inp = True
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''
+[VAR_1]
+name = u'language'
+vartype = u'UINT'
+address = ''
+alias = False
+init = u''
+inp = True
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''
+
+</node fullname="/project/UTILITY_Lib/TRANSLATE/ST_TRANSLATE/ST_TRANSLATE">
+
+</childs fullname="/project/UTILITY_Lib/TRANSLATE/ST_TRANSLATE">
+
+</node fullname="/project/UTILITY_Lib/TRANSLATE/ST_TRANSLATE">
+
+</childs fullname="/project/UTILITY_Lib/TRANSLATE">
+
+</node fullname="/project/UTILITY_Lib/TRANSLATE">
+
+</childs fullname="/project/UTILITY_Lib">

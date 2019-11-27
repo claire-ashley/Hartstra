@@ -1,0 +1,842 @@
+[GENERAL]
+bigfile = 1
+module = 'model.library'
+class = 'LibraryModel'
+filename = u'project\\TERA_Lib\\property.txt'
+[ATTRIBUTES]
+name = u'TERA_Lib'
+library_comment = u"TERA family specific library:\n\n1.0.0.0:\n- add power management (shutdown);\n\n1.0.0.1:\n- added utility POUs to write event log to USB/SD;\n\n1.0.0.2:\n- added utility POUs to initialize the memory device (SD-CARD and USB);\n\n1.0.0.3:\n- added INIT_BYTEARRAY_P and INIT_BYTEARRAY_R;\n\n1.0.0.4:\n- improved comments WRITE_EL_ENUM;\n\n1.0.0.5:\n- implemented for TERA7 vertical, TERA7 15 keys and TERA8 vertical;\n\n1.0.1.0:\n- Added POU's for device managements;\n- Added function for touchscreen calibration.\n\n1.0.1.1:\n- Update internal function WRITE_EL;\n\n1.0.1.2:\n- Update internal function INIT_BYTEARRAY_R;\n\n1.0.1.3:\n- Implemented for TERA9;\n\n1.0.1.4:\n- Remove TERA4;\n- Add REBOOT;\n\n1.0.1.5:\n- LcdSetBlank;\n\n1.0.1.6:\n- Add TERA7 FLEX;\n\n1.0.1.7:\n- Add TERA7 FLEX_L;\n\n1.0.1.8:\n- Add TERA7_QT and TERA12_QT;\n\n1.0.1.9:\n- Add TERA_EOLOADER;\n\n1.0.2.0:\n- Add TERA7_VDS;\n\n1.0.2.1:\n- Removed TERA8P;\n\n1.0.2.2:\n- Compiled with VT3 v8.x"
+version = u'1.0.2.2'
+build_number = 226
+build_date_time = "'2016-03-18-09.02.56'"
+build_username = 'MattiaDolce'
+runtime_targets = ['TERA12', 'TERA6', 'TERA7', 'TERA7FLEX_L', 'TERA7FLEX', 'TERA7_VDS', 'TERA7P', 'TERA7P15keys', 'TERA8', 'TERA9', 'TERA12_EOloader', 'TERA12_Qt', 'TERA7_Qt']
+device_use = [u'Tera_7']
+codegen_version = 1
+vt3_version = '8.5.3.0-STABLE'
+source = 0
+
+<childs fullname="/project/TERA_Lib">
+
+<node fullname="/project/TERA_Lib/POWERMANAGEMENT">
+
+[GENERAL]
+bigfile = 1
+module = 'model.folderModel'
+class = 'FolderModel'
+[ATTRIBUTES]
+name = u'POWERMANAGEMENT'
+documentation = u'Power management POUs'
+private = False
+
+<childs fullname="/project/TERA_Lib/POWERMANAGEMENT">
+
+<node fullname="/project/TERA_Lib/POWERMANAGEMENT/GET_POWER_FAIL">
+
+[GENERAL]
+bigfile = 1
+module = 'model.POU_Model'
+class = 'POU_PROGRAM'
+[ATTRIBUTES]
+name = u'GET_POWER_FAIL'
+pou_type = 'PROGRAM'
+body_language = 'C'
+pou_comment = u'This PROGRAM returns the power fail (+VB) status.'
+last_excel_import_export_filename = ''
+[VARIABLES]
+count = 1
+[VAR_0]
+name = u'power_fail'
+vartype = u'BOOL'
+address = ''
+alias = False
+init = u''
+inp = False
+out = True
+temp = False
+constant = False
+comment = u'TRUE if +VB is disconnected; FALSE otherwise'
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''
+
+</node fullname="/project/TERA_Lib/POWERMANAGEMENT/GET_POWER_FAIL">
+
+<node fullname="/project/TERA_Lib/POWERMANAGEMENT/SET_POWER_FAIL_SHUTDOWN">
+
+[GENERAL]
+bigfile = 1
+module = 'model.POU_Model'
+class = 'POU_PROGRAM'
+[ATTRIBUTES]
+name = u'SET_POWER_FAIL_SHUTDOWN'
+pou_type = 'PROGRAM'
+body_language = 'C'
+pou_comment = u'This PROGRAM enable/disable the automatic shutdown on power fail.\nThe default behaviour of VT3 runtime shutdown the device after power fail is TRUE (+VB disconnected) for 10sec. \n'
+last_excel_import_export_filename = ''
+[VARIABLES]
+count = 1
+[VAR_0]
+name = u'enable'
+vartype = u'BOOL'
+address = ''
+alias = False
+init = u''
+inp = True
+out = False
+temp = False
+constant = False
+comment = u'TRUE to enable automatic shutdown; FALSE otherwise'
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''
+
+</node fullname="/project/TERA_Lib/POWERMANAGEMENT/SET_POWER_FAIL_SHUTDOWN">
+
+<node fullname="/project/TERA_Lib/POWERMANAGEMENT/SHUTDOWN">
+
+[GENERAL]
+bigfile = 1
+module = 'model.POU_Model'
+class = 'POU_PROGRAM'
+[ATTRIBUTES]
+name = u'SHUTDOWN'
+pou_type = 'PROGRAM'
+body_language = 'C'
+pou_comment = u'This PROGRAM shutdown the device.\nShutdown will be done only if power fail is TRUE (see GET_POWER_FAIL).\n'
+last_excel_import_export_filename = ''
+[VARIABLES]
+count = 0
+
+</node fullname="/project/TERA_Lib/POWERMANAGEMENT/SHUTDOWN">
+
+<node fullname="/project/TERA_Lib/POWERMANAGEMENT/REBOOT">
+
+[GENERAL]
+bigfile = 1
+module = 'model.POU_Model'
+class = 'POU_PROGRAM'
+[ATTRIBUTES]
+name = u'REBOOT'
+pou_type = 'PROGRAM'
+body_language = 'C'
+pou_comment = u'This PROGRAM reboot the device.\n'
+last_excel_import_export_filename = ''
+[VARIABLES]
+count = 0
+
+</node fullname="/project/TERA_Lib/POWERMANAGEMENT/REBOOT">
+
+</childs fullname="/project/TERA_Lib/POWERMANAGEMENT">
+
+</node fullname="/project/TERA_Lib/POWERMANAGEMENT">
+
+<node fullname="/project/TERA_Lib/EVENTLOG">
+
+[GENERAL]
+bigfile = 1
+module = 'model.folderModel'
+class = 'FolderModel'
+[ATTRIBUTES]
+name = u'EVENTLOG'
+documentation = u'Implemented utility POUs to write event log to SD/USB\n\nFunction name: \n    1) WRITE_EL_TO_SD\n    2) WRITE_EL_TO_USB\n  \nDescrition:\n    It save the elog pointed out by the el_n\n\nUse:\n     In order to use WRITE_EL_TO_SD or WRITE_EL_TO_USB with TERA-fast-boot devices,  you need to initialize the memory device  (SD-CARD and USB) with INIT_SD_USB program:\n\n        In the PLC_PRG:\n\n            // Initialize the memory device\n            if(flag_Only_Once){\t\t\n                INIT_SD_USB__call();\n                flag_Only_Once = FALSE;\n            }\n\t\t\t\n        In the global data:\n\n            // Variable only once\n            BOOL flag_Only_Once = TRUE;\n\n    1) SD:\n                 WRITE_EL_TO_SD.el_n = <<insert number of the elog>>;\n                 WRITE_EL_TO_SD__call();\n    2) USB:\n                 WRITE_EL_TO_USB.el_n = <<insert number of the elog>>;\n                 WRITE_EL_TO_USB__call();\n'
+private = False
+
+<childs fullname="/project/TERA_Lib/EVENTLOG">
+
+<node fullname="/project/TERA_Lib/EVENTLOG/INIT_SD_USB">
+
+[GENERAL]
+bigfile = 1
+module = 'model.POU_Model'
+class = 'POU_PROGRAM'
+[ATTRIBUTES]
+name = u'INIT_SD_USB'
+pou_type = 'PROGRAM'
+body_language = 'C'
+pou_comment = 'comment'
+last_excel_import_export_filename = ''
+[VARIABLES]
+count = 0
+
+</node fullname="/project/TERA_Lib/EVENTLOG/INIT_SD_USB">
+
+<node fullname="/project/TERA_Lib/EVENTLOG/WRITE_EL_TO_SD">
+
+[GENERAL]
+bigfile = 1
+module = 'model.POU_Model'
+class = 'POU_PROGRAM'
+[ATTRIBUTES]
+name = u'WRITE_EL_TO_SD'
+pou_type = 'PROGRAM'
+body_language = 'C'
+pou_comment = u'Function name: \n     WRITE_EL_TO_SD\n  \nDescrition:\n    It save the elog pointed out by the el_n\n\nUse:\n    WRITE_EL_TO_SD.el_n = <<insert number of the elog>>;\n    WRITE_EL_TO_SD__call();'
+last_excel_import_export_filename = ''
+[VARIABLES]
+count = 2
+[VAR_0]
+name = u'el_n'
+vartype = u'INT'
+address = ''
+alias = False
+init = u'0'
+inp = True
+out = False
+temp = False
+constant = False
+comment = u'Number elog save to SD'
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''
+[VAR_1]
+name = u'ret'
+vartype = u'WRITE_EL_ENUM'
+address = ''
+alias = False
+init = u'0'
+inp = False
+out = True
+temp = False
+constant = False
+comment = u'Return info write to SD'
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''
+
+</node fullname="/project/TERA_Lib/EVENTLOG/WRITE_EL_TO_SD">
+
+<node fullname="/project/TERA_Lib/EVENTLOG/WRITE_EL_TO_USB">
+
+[GENERAL]
+bigfile = 1
+module = 'model.POU_Model'
+class = 'POU_PROGRAM'
+[ATTRIBUTES]
+name = u'WRITE_EL_TO_USB'
+pou_type = 'PROGRAM'
+body_language = 'C'
+pou_comment = u'Function name: \n     WRITE_EL_TO_USB\n  \nDescrition:\n    It save the elog pointed out by the el_n\n\nUse:\n    WRITE_EL_TO_USB.el_n = <<insert number of the elog>>;\n    WRITE_EL_TO_USB__call();'
+last_excel_import_export_filename = ''
+[VARIABLES]
+count = 2
+[VAR_0]
+name = u'el_n'
+vartype = u'INT'
+address = ''
+alias = False
+init = u'0'
+inp = True
+out = False
+temp = False
+constant = False
+comment = u'Number elog save to USB'
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''
+[VAR_1]
+name = u'ret'
+vartype = u'WRITE_EL_ENUM'
+address = ''
+alias = False
+init = u'0'
+inp = False
+out = True
+temp = False
+constant = False
+comment = u'Return info write to USB'
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''
+
+</node fullname="/project/TERA_Lib/EVENTLOG/WRITE_EL_TO_USB">
+
+<node fullname="/project/TERA_Lib/EVENTLOG/WRITE_EL_ENUM">
+
+[GENERAL]
+bigfile = 1
+module = 'model.typedefModel'
+class = 'TypedefModel'
+[ATTRIBUTES]
+name = u'WRITE_EL_ENUM'
+
+<typedef fullname="/project/TERA_Lib/EVENTLOG/WRITE_EL_ENUM">
+
+
+(
+    WELSD_OK                            := 0,    (* SD or USB write successfully completed *)
+    WELSD_EL_READ_ERR                   := 1,    (* Error reading event log from the memory of the device *)
+    WELSD_EL_EMPTY                      := 2,    (* Event log empty  *)
+    WELSD_EL_FILEOPEN_ERR               := 3,    (* Error opening file for writing  *)
+    WELSD_EL_FILEWRITE_ERR              := 4,    (* Error writing event log to file *)
+    WELSD_EL_FILEWRITEBUFFER_ERR        := 5,    (* Error write record in the SD (available in device VIEW) *)
+    WELSD_EL_MALLOC_ERR                 := 6,    (* Error to allocation memory to contain all data (available in device VIEW) *)
+    MOUNT_ERR                           := 7,    (* Error mount SD or USB (available in device TERA) *)
+    UMOUNT_ERR                          := 8     (* Error unmount SD or USB (available in device TERA) *)
+)
+
+
+</typedef fullname="/project/TERA_Lib/EVENTLOG/WRITE_EL_ENUM">
+
+</node fullname="/project/TERA_Lib/EVENTLOG/WRITE_EL_ENUM">
+
+<node fullname="/project/TERA_Lib/EVENTLOG/Funz_init_write">
+
+[GENERAL]
+bigfile = 1
+module = 'model.folderModel'
+class = 'FolderModel'
+[ATTRIBUTES]
+name = u'Funz_init_write'
+documentation = 'write documentation here'
+private = True
+
+<childs fullname="/project/TERA_Lib/EVENTLOG/Funz_init_write">
+
+<node fullname="/project/TERA_Lib/EVENTLOG/Funz_init_write/WRITE_EL">
+
+[GENERAL]
+bigfile = 1
+module = 'model.POU_Model'
+class = 'POU_FUNCTION'
+[ATTRIBUTES]
+name = u'WRITE_EL'
+pou_type = 'FUNCTION'
+body_language = 'C'
+pou_comment = u'Function name: \n     WRITE_EL_TO_SD\n  \nDescrition:\n    It save the elog pointed out by the el_n\n\nUse:\n    WRITE_EL_TO_SD.el_n = <<insert number of the elog>>;\n    WRITE_EL_TO_SD__call();'
+last_excel_import_export_filename = ''
+return_type = u'WRITE_EL_ENUM'
+[VARIABLES]
+count = 2
+[VAR_0]
+name = u'el_n'
+vartype = u'SINT'
+address = ''
+alias = False
+init = u''
+inp = True
+out = False
+temp = False
+constant = False
+comment = u'Number elog save to device'
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''
+[VAR_1]
+name = u'pto_mount'
+vartype = u'BOOL'
+address = ''
+alias = False
+init = u''
+inp = True
+out = False
+temp = False
+constant = False
+comment = u'Point to mount'
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''
+
+</node fullname="/project/TERA_Lib/EVENTLOG/Funz_init_write/WRITE_EL">
+
+</childs fullname="/project/TERA_Lib/EVENTLOG/Funz_init_write">
+
+</node fullname="/project/TERA_Lib/EVENTLOG/Funz_init_write">
+
+<node fullname="/project/TERA_Lib/EVENTLOG/Funz_write_el">
+
+[GENERAL]
+bigfile = 1
+module = 'model.folderModel'
+class = 'FolderModel'
+[ATTRIBUTES]
+name = u'Funz_write_el'
+documentation = 'write documentation here'
+private = True
+
+<childs fullname="/project/TERA_Lib/EVENTLOG/Funz_write_el">
+
+<node fullname="/project/TERA_Lib/EVENTLOG/Funz_write_el/WRITE_EL_PRIVATE">
+
+[GENERAL]
+bigfile = 1
+module = 'model.POU_Model'
+class = 'POU_FUNCTION'
+[ATTRIBUTES]
+name = u'WRITE_EL_PRIVATE'
+pou_type = 'FUNCTION'
+body_language = 'C'
+pou_comment = 'comment'
+last_excel_import_export_filename = ''
+return_type = u'WRITE_EL_ENUM'
+[VARIABLES]
+count = 10
+[VAR_0]
+name = u'el_n'
+vartype = u'SINT'
+address = ''
+alias = False
+init = u''
+inp = True
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''
+[VAR_1]
+name = u'info_count'
+vartype = u'DWORD'
+address = ''
+alias = False
+init = u''
+inp = False
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''
+[VAR_2]
+name = u'info_size'
+vartype = u'DWORD'
+address = ''
+alias = False
+init = u''
+inp = False
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''
+[VAR_3]
+name = u'nrecs'
+vartype = u'DWORD'
+address = ''
+alias = False
+init = u''
+inp = False
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''
+[VAR_4]
+name = u'absolute'
+vartype = u'DWORD'
+address = ''
+alias = False
+init = u''
+inp = False
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''
+[VAR_5]
+name = u'i'
+vartype = u'DWORD'
+address = ''
+alias = False
+init = u''
+inp = False
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''
+[VAR_6]
+name = u'j'
+vartype = u'BYTE'
+address = ''
+alias = False
+init = u''
+inp = False
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''
+[VAR_7]
+name = u'DTcurrent'
+vartype = u'DATE_AND_TIME'
+address = ''
+alias = False
+init = u''
+inp = False
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''
+[VAR_8]
+name = u'Tcurrent'
+vartype = u'TIME_OF_DAY'
+address = ''
+alias = False
+init = u''
+inp = False
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''
+[VAR_9]
+name = u'Dcurrent'
+vartype = u'DATE'
+address = ''
+alias = False
+init = u''
+inp = False
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''
+
+</node fullname="/project/TERA_Lib/EVENTLOG/Funz_write_el/WRITE_EL_PRIVATE">
+
+</childs fullname="/project/TERA_Lib/EVENTLOG/Funz_write_el">
+
+</node fullname="/project/TERA_Lib/EVENTLOG/Funz_write_el">
+
+</childs fullname="/project/TERA_Lib/EVENTLOG">
+
+</node fullname="/project/TERA_Lib/EVENTLOG">
+
+<node fullname="/project/TERA_Lib/MEMORY">
+
+[GENERAL]
+bigfile = 1
+module = 'model.folderModel'
+class = 'FolderModel'
+[ATTRIBUTES]
+name = u'MEMORY'
+documentation = u'Memory management'
+private = False
+
+<childs fullname="/project/TERA_Lib/MEMORY">
+
+<node fullname="/project/TERA_Lib/MEMORY/INIT_BYTEARRAY_P">
+
+[GENERAL]
+bigfile = 1
+module = 'model.POU_Model'
+class = 'POU_PROGRAM'
+[ATTRIBUTES]
+name = u'INIT_BYTEARRAY_P'
+pou_type = 'PROGRAM'
+body_language = 'C'
+pou_comment = u"Program to initialize %P memory variables.\nIn order to inizialize %P variables with 'init' values, call this program and restart the application."
+last_excel_import_export_filename = ''
+[VARIABLES]
+count = 0
+
+</node fullname="/project/TERA_Lib/MEMORY/INIT_BYTEARRAY_P">
+
+<node fullname="/project/TERA_Lib/MEMORY/INIT_BYTEARRAY_R">
+
+[GENERAL]
+bigfile = 1
+module = 'model.POU_Model'
+class = 'POU_PROGRAM'
+[ATTRIBUTES]
+name = u'INIT_BYTEARRAY_R'
+pou_type = 'PROGRAM'
+body_language = 'C'
+pou_comment = u"Program to initialize %R memory variables.\nIn order to inizialize %R variables with 'init' values, call this program and restart the application."
+last_excel_import_export_filename = ''
+[VARIABLES]
+count = 0
+
+</node fullname="/project/TERA_Lib/MEMORY/INIT_BYTEARRAY_R">
+
+</childs fullname="/project/TERA_Lib/MEMORY">
+
+</node fullname="/project/TERA_Lib/MEMORY">
+
+<node fullname="/project/TERA_Lib/TOUCHCALIBRATION">
+
+[GENERAL]
+bigfile = 1
+module = 'model.folderModel'
+class = 'FolderModel'
+[ATTRIBUTES]
+name = u'TOUCHCALIBRATION'
+documentation = u'Touchscreen calibration management functions.'
+private = False
+
+<childs fullname="/project/TERA_Lib/TOUCHCALIBRATION">
+
+<node fullname="/project/TERA_Lib/TOUCHCALIBRATION/check_touchcalibration">
+
+[GENERAL]
+bigfile = 1
+module = 'model.POU_Model'
+class = 'POU_FUNCTION'
+[ATTRIBUTES]
+name = u'check_touchcalibration'
+pou_type = 'FUNCTION'
+body_language = 'C'
+pou_comment = u'* Check for the _tera_calib_ file in the USB filesystem *\n\nFunction name: \n     CHECK_TOUCHCALIBRATION\n  \nDescrition:\n     Check for the _tera_calib_ file in the USB filesystem.\n     If necessary it mounts and umounts the filesystem from USB\n     dongle.\n\nReturn values:\n     0 : file _tera_calib_file found;\n     -1 : check fails'
+last_excel_import_export_filename = ''
+return_type = u'DINT'
+[VARIABLES]
+count = 0
+
+</node fullname="/project/TERA_Lib/TOUCHCALIBRATION/check_touchcalibration">
+
+<node fullname="/project/TERA_Lib/TOUCHCALIBRATION/req_touchcalibration">
+
+[GENERAL]
+bigfile = 1
+module = 'model.POU_Model'
+class = 'POU_FUNCTION'
+[ATTRIBUTES]
+name = u'req_touchcalibration'
+pou_type = 'FUNCTION'
+body_language = 'C'
+pou_comment = u'* Reboot the system for re-calibration *\n\nFunction name: \n     REQ_TOUCHCALIBRATION\n  \nDescrition:\n     Reboot the system for re-calibration.\n\nReturn value:\n     0 : if OK \n     otherwise: it fails'
+last_excel_import_export_filename = ''
+return_type = u'DINT'
+[VARIABLES]
+count = 0
+
+</node fullname="/project/TERA_Lib/TOUCHCALIBRATION/req_touchcalibration">
+
+</childs fullname="/project/TERA_Lib/TOUCHCALIBRATION">
+
+</node fullname="/project/TERA_Lib/TOUCHCALIBRATION">
+
+<node fullname="/project/TERA_Lib/DEVICES">
+
+[GENERAL]
+bigfile = 1
+module = 'model.folderModel'
+class = 'FolderModel'
+[ATTRIBUTES]
+name = u'DEVICES'
+documentation = u"common POU's for device management."
+private = False
+
+<childs fullname="/project/TERA_Lib/DEVICES">
+
+<node fullname="/project/TERA_Lib/DEVICES/mountUSB">
+
+[GENERAL]
+bigfile = 1
+module = 'model.POU_Model'
+class = 'POU_FUNCTION'
+[ATTRIBUTES]
+name = u'mountUSB'
+pou_type = 'FUNCTION'
+body_language = 'C'
+pou_comment = u'* Mount a VFAT filesystem from USB dongle *\n\nFunction name: \n     mountUSB\n  \nDescrition:\n     Mount a VFAT filesystem from USB dongle\n\nReturn value:\n     1 : if already mounted\n     0 : mounted the device\n     -1 : error mounting as VFAT filesystem\n     -2 : no USB dongle found \n'
+last_excel_import_export_filename = ''
+return_type = u'DINT'
+[VARIABLES]
+count = 0
+
+</node fullname="/project/TERA_Lib/DEVICES/mountUSB">
+
+<node fullname="/project/TERA_Lib/DEVICES/mountSD">
+
+[GENERAL]
+bigfile = 1
+module = 'model.POU_Model'
+class = 'POU_FUNCTION'
+[ATTRIBUTES]
+name = u'mountSD'
+pou_type = 'FUNCTION'
+body_language = 'C'
+pou_comment = u'* Mount a VFAT filesystem from SD card *\n\nFunction name: \n     mountSD\n  \nDescrition:\n     Mount a VFAT filesystem from SD card\n\nReturn value:\n     1 : if already mounted\n     0 : mounted the device\n     -1 : error mounting as VFAT filesystem\n     -2 : no SD card found \n     -3 : error loading driver\n'
+last_excel_import_export_filename = ''
+return_type = u'DINT'
+[VARIABLES]
+count = 0
+
+</node fullname="/project/TERA_Lib/DEVICES/mountSD">
+
+<node fullname="/project/TERA_Lib/DEVICES/umountUSB">
+
+[GENERAL]
+bigfile = 1
+module = 'model.POU_Model'
+class = 'POU_FUNCTION'
+[ATTRIBUTES]
+name = u'umountUSB'
+pou_type = 'FUNCTION'
+body_language = 'C'
+pou_comment = u'* Unmount the VFAT filesystem from USB dongle *\n\nFunction name: \n     umountUSB\n  \nDescrition:\n     Unmount the VFAT filesystem from USB dongle\n\nReturn value:\n     1 : if not mounted\n     0 : unmounted the device\n     -1 : error unmounting the VFAT filesystem\n'
+last_excel_import_export_filename = ''
+return_type = u'DINT'
+[VARIABLES]
+count = 0
+
+</node fullname="/project/TERA_Lib/DEVICES/umountUSB">
+
+<node fullname="/project/TERA_Lib/DEVICES/umountSD">
+
+[GENERAL]
+bigfile = 1
+module = 'model.POU_Model'
+class = 'POU_FUNCTION'
+[ATTRIBUTES]
+name = u'umountSD'
+pou_type = 'FUNCTION'
+body_language = 'C'
+pou_comment = u'* Unmount the VFAT filesystem from SD card *\n\nFunction name: \n     umountSD\n  \nDescrition:\n     Unmount the VFAT filesystem from SD card\n\nReturn value:\n     1 : if not mounted\n     0 : unmounted the device\n     -1 : error unmounting the VFAT filesystem\n'
+last_excel_import_export_filename = ''
+return_type = u'DINT'
+[VARIABLES]
+count = 0
+
+</node fullname="/project/TERA_Lib/DEVICES/umountSD">
+
+</childs fullname="/project/TERA_Lib/DEVICES">
+
+</node fullname="/project/TERA_Lib/DEVICES">
+
+<node fullname="/project/TERA_Lib/SCREEN">
+
+[GENERAL]
+bigfile = 1
+module = 'model.folderModel'
+class = 'FolderModel'
+[ATTRIBUTES]
+name = u'SCREEN'
+documentation = 'write documentation here'
+private = False
+
+<childs fullname="/project/TERA_Lib/SCREEN">
+
+<node fullname="/project/TERA_Lib/SCREEN/lcdSetBlank">
+
+[GENERAL]
+bigfile = 1
+module = 'model.POU_Model'
+class = 'POU_PROGRAM'
+[ATTRIBUTES]
+name = u'lcdSetBlank'
+pou_type = 'PROGRAM'
+body_language = 'C'
+pou_comment = u'Power on/off backlight'
+last_excel_import_export_filename = ''
+[VARIABLES]
+count = 1
+[VAR_0]
+name = u'value'
+vartype = u'BOOL'
+address = ''
+alias = False
+init = u'0'
+inp = True
+out = False
+temp = False
+constant = False
+comment = u''
+winscope_min = ''
+winscope_max = ''
+winscope_unit = ''
+winscope_scale = ''
+winscope_offset = ''
+winscope_access_read = ''
+winscope_access_write = ''
+
+</node fullname="/project/TERA_Lib/SCREEN/lcdSetBlank">
+
+</childs fullname="/project/TERA_Lib/SCREEN">
+
+</node fullname="/project/TERA_Lib/SCREEN">
+
+</childs fullname="/project/TERA_Lib">

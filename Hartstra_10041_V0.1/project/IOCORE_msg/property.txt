@@ -1,0 +1,111 @@
+[GENERAL]
+bigfile = 1
+module = 'model.deviceJ1939Model'
+class = 'DeviceJ1939Model'
+filename = u'project\\IOCORE_msg\\property.txt'
+[ATTRIBUTES]
+name = u'IOCORE_msg'
+
+<childs fullname="/project/IOCORE_msg">
+
+<node fullname="/project/IOCORE_msg/CAN_interface">
+
+[GENERAL]
+bigfile = 1
+module = 'model.can.canInterfaceModel'
+class = 'CanInterfaceModel'
+[ATTRIBUTES]
+name = 'CAN_interface'
+connection = 'CAN_line'
+port_number = 0
+j1939_source_address = 1
+whitelist = []
+last_excel_import_export_filename = ''
+
+<childs fullname="/project/IOCORE_msg/CAN_interface">
+
+<node fullname="/project/IOCORE_msg/CAN_interface/CAN_Heartbeat_CPU01">
+
+[GENERAL]
+bigfile = 1
+module = 'model.can.canMsgModel'
+class = 'CanMsgModel'
+[ATTRIBUTES]
+name = u'CAN_Heartbeat_CPU01'
+id = 1793
+id_hex = u'701'
+dlc = 1
+dlcMin = 1
+ext = False
+rate = 500
+alm_tout = 1500
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 0
+varname_prefix = u'IO1_'
+mux = 0
+muxpos = 0
+muxid = 0
+is_tx_synchronous = False
+[CAN_VARIABLES]
+count = 1
+[CAN_VARIABLE_0]
+name = u'state'
+vartype = u'BYTE'
+bytepos = 0
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+
+</node fullname="/project/IOCORE_msg/CAN_interface/CAN_Heartbeat_CPU01">
+
+<node fullname="/project/IOCORE_msg/CAN_interface/CAN_Heartbeat_CPU02">
+
+[GENERAL]
+bigfile = 1
+module = 'model.can.canMsgModel'
+class = 'CanMsgModel'
+[ATTRIBUTES]
+name = u'CAN_Heartbeat_CPU02'
+id = 1794
+id_hex = u'702'
+dlc = 1
+dlcMin = 1
+ext = False
+rate = 500
+alm_tout = 1500
+alm_off_cnt = 3
+alm_on_cnt = 1
+byte_base = 0
+varname_prefix = u'IO2_'
+mux = 0
+muxpos = 0
+muxid = 0
+is_tx_synchronous = False
+[CAN_VARIABLES]
+count = 1
+[CAN_VARIABLE_0]
+name = u'state'
+vartype = u'BYTE'
+bytepos = 0
+bitpos = 0
+bitlength = 8
+endianness = u'LE'
+offset = 0
+mul = 1
+div = 1
+init = '0'
+comment = u''
+
+</node fullname="/project/IOCORE_msg/CAN_interface/CAN_Heartbeat_CPU02">
+
+</childs fullname="/project/IOCORE_msg/CAN_interface">
+
+</node fullname="/project/IOCORE_msg/CAN_interface">
+
+</childs fullname="/project/IOCORE_msg">
