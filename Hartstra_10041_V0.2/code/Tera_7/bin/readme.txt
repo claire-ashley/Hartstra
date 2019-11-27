@@ -1,10 +1,10 @@
-Date and time:     Thu Jun 21 08:31:09 2018
+Date and time:     Fri Jun 29 12:11:24 2018
 Computer name:     1F292G2
 User name:         Hurdj00
 Windows version:   6.2.9200.2 
 Version of vt3:    8.9.0.3-PATCH
 
-Project:           C:\Users\hurdj00\Desktop\Hartstra_10041_V0.1\Hartstra_10041_V0.1.vt3
+Project:           C:\Users\hurdj00\Desktop\Harstra\10041_~1.VT3
 Project version:   0.1
 Device:            Tera_7
 Source address:    18

@@ -406,55 +406,55 @@ Discarded input sections
  .note.GNU-stack
                 0x00000000        0x0 extra/vt3_extra.obj
  .note.GNU-stack
-                0x00000000        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_extra.obj
+                0x00000000        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_extra.obj
  .note.GNU-stack
-                0x00000000        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__ARR_BYTE_version.obj
+                0x00000000        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__ARR_BYTE_version.obj
  .note.GNU-stack
-                0x00000000        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__BYTE_TO_ASCII.obj
+                0x00000000        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__BYTE_TO_ASCII.obj
  .note.GNU-stack
-                0x00000000        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__check_touchcalibration.obj
+                0x00000000        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__check_touchcalibration.obj
  .note.GNU-stack
-                0x00000000        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__GET_POWER_FAIL.obj
+                0x00000000        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__GET_POWER_FAIL.obj
  .note.GNU-stack
-                0x00000000        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version.obj
+                0x00000000        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version.obj
  .note.GNU-stack
-                0x00000000        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version_byte.obj
+                0x00000000        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version_byte.obj
  .note.GNU-stack
-                0x00000000        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_P.obj
+                0x00000000        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_P.obj
  .note.GNU-stack
-                0x00000000        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_R.obj
+                0x00000000        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_R.obj
  .note.GNU-stack
-                0x00000000        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_SD_USB.obj
+                0x00000000        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_SD_USB.obj
  .note.GNU-stack
-                0x00000000        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__lcdSetBlank.obj
+                0x00000000        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__lcdSetBlank.obj
  .note.GNU-stack
-                0x00000000        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__mountSD.obj
+                0x00000000        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__mountSD.obj
  .note.GNU-stack
-                0x00000000        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__mountUSB.obj
+                0x00000000        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__mountUSB.obj
  .note.GNU-stack
-                0x00000000        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__REBOOT.obj
+                0x00000000        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__REBOOT.obj
  .note.GNU-stack
-                0x00000000        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__req_touchcalibration.obj
+                0x00000000        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__req_touchcalibration.obj
  .note.GNU-stack
-                0x00000000        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__SET_POWER_FAIL_SHUTDOWN.obj
+                0x00000000        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__SET_POWER_FAIL_SHUTDOWN.obj
  .note.GNU-stack
-                0x00000000        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__SHUTDOWN.obj
+                0x00000000        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__SHUTDOWN.obj
  .note.GNU-stack
-                0x00000000        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__ST_TRANSLATE.obj
+                0x00000000        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__ST_TRANSLATE.obj
  .note.GNU-stack
-                0x00000000        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__umountSD.obj
+                0x00000000        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__umountSD.obj
  .note.GNU-stack
-                0x00000000        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__umountUSB.obj
+                0x00000000        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__umountUSB.obj
  .note.GNU-stack
-                0x00000000        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL.obj
+                0x00000000        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL.obj
  .note.GNU-stack
-                0x00000000        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_ENUM.obj
+                0x00000000        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_ENUM.obj
  .note.GNU-stack
-                0x00000000        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_PRIVATE.obj
+                0x00000000        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_PRIVATE.obj
  .note.GNU-stack
-                0x00000000        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_SD.obj
+                0x00000000        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_SD.obj
  .note.GNU-stack
-                0x00000000        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_USB.obj
+                0x00000000        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_USB.obj
  .note.GNU-stack
                 0x00000000        0x0 c:/progra~2/codeso~1/source~1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1\libgcc.a(_udivsi3.o)
  .note.GNU-stack
@@ -567,31 +567,31 @@ LOAD vt3_code/vt3_images.obj
 LOAD vt3_code/vt3_disp.obj
 LOAD vt3_code/vt3_slaves.obj
 LOAD extra/vt3_extra.obj
-LOAD C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_extra.obj
-LOAD C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__ARR_BYTE_version.obj
-LOAD C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__BYTE_TO_ASCII.obj
-LOAD C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__check_touchcalibration.obj
-LOAD C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__GET_POWER_FAIL.obj
-LOAD C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version.obj
-LOAD C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version_byte.obj
-LOAD C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_P.obj
-LOAD C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_R.obj
-LOAD C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_SD_USB.obj
-LOAD C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__lcdSetBlank.obj
-LOAD C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__mountSD.obj
-LOAD C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__mountUSB.obj
-LOAD C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__REBOOT.obj
-LOAD C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__req_touchcalibration.obj
-LOAD C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__SET_POWER_FAIL_SHUTDOWN.obj
-LOAD C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__SHUTDOWN.obj
-LOAD C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__ST_TRANSLATE.obj
-LOAD C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__umountSD.obj
-LOAD C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__umountUSB.obj
-LOAD C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL.obj
-LOAD C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_ENUM.obj
-LOAD C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_PRIVATE.obj
-LOAD C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_SD.obj
-LOAD C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_USB.obj
+LOAD C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_extra.obj
+LOAD C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__ARR_BYTE_version.obj
+LOAD C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__BYTE_TO_ASCII.obj
+LOAD C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__check_touchcalibration.obj
+LOAD C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__GET_POWER_FAIL.obj
+LOAD C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version.obj
+LOAD C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version_byte.obj
+LOAD C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_P.obj
+LOAD C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_R.obj
+LOAD C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_SD_USB.obj
+LOAD C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__lcdSetBlank.obj
+LOAD C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__mountSD.obj
+LOAD C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__mountUSB.obj
+LOAD C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__REBOOT.obj
+LOAD C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__req_touchcalibration.obj
+LOAD C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__SET_POWER_FAIL_SHUTDOWN.obj
+LOAD C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__SHUTDOWN.obj
+LOAD C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__ST_TRANSLATE.obj
+LOAD C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__umountSD.obj
+LOAD C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__umountUSB.obj
+LOAD C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL.obj
+LOAD C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_ENUM.obj
+LOAD C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_PRIVATE.obj
+LOAD C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_SD.obj
+LOAD C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_USB.obj
 LOAD c:/progra~2/codeso~1/source~1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1\libgcc.a
 LOAD c:/progra~2/codeso~1/source~1/bin/../arm-none-linux-gnueabi/libc/lib/libgcc_s.so
 LOAD c:/progra~2/codeso~1/source~1/bin/../arm-none-linux-gnueabi/libc/usr/lib/libc.so
@@ -1832,64 +1832,64 @@ LOAD c:/progra~2/codeso~1/source~1/bin/../arm-none-linux-gnueabi/libc/usr/lib/cr
  .text          0x0005add0       0xa8 vt3_code/vt3_slaves.obj
                 0x0005add0                vt3_initialize_io_slave_function_blocks
  .text          0x0005ae78        0x0 extra/vt3_extra.obj
- .text          0x0005ae78        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_extra.obj
- .text          0x0005ae78        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__ARR_BYTE_version.obj
- .text          0x0005ae78       0x58 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__BYTE_TO_ASCII.obj
+ .text          0x0005ae78        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_extra.obj
+ .text          0x0005ae78        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__ARR_BYTE_version.obj
+ .text          0x0005ae78       0x58 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__BYTE_TO_ASCII.obj
                 0x0005ae78                BYTE_TO_ASCII__call
                 0x0005aea0                BYTE_TO_ASCII__init
- .text          0x0005aed0       0x54 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__check_touchcalibration.obj
+ .text          0x0005aed0       0x54 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__check_touchcalibration.obj
                 0x0005aed0                check_touchcalibration
- .text          0x0005af24       0x48 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__GET_POWER_FAIL.obj
+ .text          0x0005af24       0x48 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__GET_POWER_FAIL.obj
                 0x0005af24                GET_POWER_FAIL__call
                 0x0005af4c                GET_POWER_FAIL__init
- .text          0x0005af6c       0xec C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version.obj
+ .text          0x0005af6c       0xec C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version.obj
                 0x0005af6c                get_prj_version__call
                 0x0005afc0                get_prj_version__init
- .text          0x0005b058       0x6c C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version_byte.obj
+ .text          0x0005b058       0x6c C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version_byte.obj
                 0x0005b058                get_prj_version_byte__call
                 0x0005b0a4                get_prj_version_byte__init
- .text          0x0005b0c4       0x64 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_P.obj
+ .text          0x0005b0c4       0x64 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_P.obj
                 0x0005b0c4                INIT_BYTEARRAY_P__call
                 0x0005b108                INIT_BYTEARRAY_P__init
- .text          0x0005b128       0xac C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_R.obj
+ .text          0x0005b128       0xac C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_R.obj
                 0x0005b128                INIT_BYTEARRAY_R__call
                 0x0005b1b4                INIT_BYTEARRAY_R__init
- .text          0x0005b1d4       0x7c C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_SD_USB.obj
+ .text          0x0005b1d4       0x7c C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_SD_USB.obj
                 0x0005b1d4                INIT_SD_USB__call
                 0x0005b230                INIT_SD_USB__init
- .text          0x0005b250       0x48 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__lcdSetBlank.obj
+ .text          0x0005b250       0x48 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__lcdSetBlank.obj
                 0x0005b250                lcdSetBlank__call
                 0x0005b278                lcdSetBlank__init
- .text          0x0005b298       0x98 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__mountSD.obj
+ .text          0x0005b298       0x98 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__mountSD.obj
                 0x0005b298                mountSD
- .text          0x0005b330       0x4c C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__mountUSB.obj
+ .text          0x0005b330       0x4c C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__mountUSB.obj
                 0x0005b330                mountUSB
- .text          0x0005b37c       0x44 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__REBOOT.obj
+ .text          0x0005b37c       0x44 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__REBOOT.obj
                 0x0005b37c                REBOOT__call
                 0x0005b3a0                REBOOT__init
- .text          0x0005b3c0       0x28 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__req_touchcalibration.obj
+ .text          0x0005b3c0       0x28 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__req_touchcalibration.obj
                 0x0005b3c0                req_touchcalibration
- .text          0x0005b3e8       0x40 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__SET_POWER_FAIL_SHUTDOWN.obj
+ .text          0x0005b3e8       0x40 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__SET_POWER_FAIL_SHUTDOWN.obj
                 0x0005b3e8                SET_POWER_FAIL_SHUTDOWN__call
                 0x0005b408                SET_POWER_FAIL_SHUTDOWN__init
- .text          0x0005b428       0x3c C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__SHUTDOWN.obj
+ .text          0x0005b428       0x3c C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__SHUTDOWN.obj
                 0x0005b428                SHUTDOWN__call
                 0x0005b444                SHUTDOWN__init
- .text          0x0005b464        0x4 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__ST_TRANSLATE.obj
+ .text          0x0005b464        0x4 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__ST_TRANSLATE.obj
                 0x0005b464                ST_TRANSLATE
- .text          0x0005b468       0x34 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__umountSD.obj
+ .text          0x0005b468       0x34 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__umountSD.obj
                 0x0005b468                umountSD
- .text          0x0005b49c       0x34 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__umountUSB.obj
+ .text          0x0005b49c       0x34 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__umountUSB.obj
                 0x0005b49c                umountUSB
- .text          0x0005b4d0       0x7c C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL.obj
+ .text          0x0005b4d0       0x7c C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL.obj
                 0x0005b4d0                WRITE_EL
- .text          0x0005b54c        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_ENUM.obj
- .text          0x0005b54c      0x3a8 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_PRIVATE.obj
+ .text          0x0005b54c        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_ENUM.obj
+ .text          0x0005b54c      0x3a8 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_PRIVATE.obj
                 0x0005b54c                WRITE_EL_PRIVATE
- .text          0x0005b8f4       0x50 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_SD.obj
+ .text          0x0005b8f4       0x50 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_SD.obj
                 0x0005b8f4                WRITE_EL_TO_SD__call
                 0x0005b924                WRITE_EL_TO_SD__init
- .text          0x0005b944       0x50 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_USB.obj
+ .text          0x0005b944       0x50 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_USB.obj
                 0x0005b944                WRITE_EL_TO_USB__call
                 0x0005b974                WRITE_EL_TO_USB__init
  .text          0x0005b994      0x20c c:/progra~2/codeso~1/source~1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1\libgcc.a(_udivsi3.o)
@@ -2235,52 +2235,52 @@ LOAD c:/progra~2/codeso~1/source~1/bin/../arm-none-linux-gnueabi/libc/usr/lib/cr
                 0x00061130                vt3_screen_ks_ptr
  .rodata        0x00063750      0x218 vt3_code/vt3_slaves.obj
  .rodata.str1.4
-                0x00063968       0x19 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__check_touchcalibration.obj
+                0x00063968       0x19 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__check_touchcalibration.obj
                                  0x1c (size before relaxing)
  *fill*         0x00063981        0x3 00
- .rodata        0x00063984        0x4 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__GET_POWER_FAIL.obj
- .rodata        0x00063988       0x18 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version.obj
- .rodata        0x000639a0       0x18 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version_byte.obj
- .rodata        0x000639b8        0x4 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_P.obj
+ .rodata        0x00063984        0x4 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__GET_POWER_FAIL.obj
+ .rodata        0x00063988       0x18 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version.obj
+ .rodata        0x000639a0       0x18 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version_byte.obj
+ .rodata        0x000639b8        0x4 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_P.obj
  .rodata.str1.4
-                0x000639bc       0x3e C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_P.obj
+                0x000639bc       0x3e C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_P.obj
                                  0x48 (size before relaxing)
  *fill*         0x000639fa        0x2 00
- .rodata        0x000639fc        0x4 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_R.obj
+ .rodata        0x000639fc        0x4 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_R.obj
  .rodata.str1.4
-                0x00000000       0x18 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_R.obj
- .rodata        0x00063a00        0x4 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_SD_USB.obj
+                0x00000000       0x18 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_R.obj
+ .rodata        0x00063a00        0x4 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_SD_USB.obj
  .rodata.str1.4
-                0x00063a04       0x65 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_SD_USB.obj
+                0x00063a04       0x65 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_SD_USB.obj
                                  0x68 (size before relaxing)
  *fill*         0x00063a69        0x3 00
- .rodata        0x00063a6c        0x4 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__lcdSetBlank.obj
+ .rodata        0x00063a6c        0x4 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__lcdSetBlank.obj
  .rodata.str1.4
-                0x00063a70      0x148 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__mountSD.obj
+                0x00063a70      0x148 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__mountSD.obj
                                 0x15c (size before relaxing)
  .rodata.str1.4
-                0x00063bb8       0xb0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__mountUSB.obj
- .rodata        0x00063c68        0x4 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__REBOOT.obj
+                0x00063bb8       0xb0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__mountUSB.obj
+ .rodata        0x00063c68        0x4 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__REBOOT.obj
  .rodata.str1.4
-                0x00063c6c        0x7 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__REBOOT.obj
+                0x00063c6c        0x7 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__REBOOT.obj
                                   0x8 (size before relaxing)
  *fill*         0x00063c73        0x1 00
  .rodata.str1.4
-                0x00063c74       0x14 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__req_touchcalibration.obj
+                0x00063c74       0x14 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__req_touchcalibration.obj
                                  0x1c (size before relaxing)
- .rodata        0x00063c88        0x4 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__SET_POWER_FAIL_SHUTDOWN.obj
- .rodata        0x00063c8c        0x4 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__SHUTDOWN.obj
+ .rodata        0x00063c88        0x4 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__SET_POWER_FAIL_SHUTDOWN.obj
+ .rodata        0x00063c8c        0x4 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__SHUTDOWN.obj
  .rodata.str1.4
-                0x00063c90       0x12 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__umountSD.obj
+                0x00063c90       0x12 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__umountSD.obj
                                  0x54 (size before relaxing)
  .rodata.str1.4
-                0x00000000       0x54 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__umountUSB.obj
+                0x00000000       0x54 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__umountUSB.obj
  *fill*         0x00063ca2        0x2 00
  .rodata.str1.4
-                0x00063ca4       0xa4 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_PRIVATE.obj
+                0x00063ca4       0xa4 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_PRIVATE.obj
                                  0xac (size before relaxing)
- .rodata        0x00063d48        0x8 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_SD.obj
- .rodata        0x00063d50        0x8 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_USB.obj
+ .rodata        0x00063d48        0x8 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_SD.obj
+ .rodata        0x00063d50        0x8 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_USB.obj
 
 .rodata1
  *(.rodata1)
@@ -2332,28 +2332,28 @@ LOAD c:/progra~2/codeso~1/source~1/bin/../arm-none-linux-gnueabi/libc/usr/lib/cr
  .ARM.extab     0x00064544        0x0 vt3_code/vt3_disp_events.obj
  .ARM.extab     0x00064544        0x0 vt3_code/vt3_disp.obj
  .ARM.extab     0x00064544        0x0 vt3_code/vt3_slaves.obj
- .ARM.extab     0x00064544        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__BYTE_TO_ASCII.obj
- .ARM.extab     0x00064544        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__check_touchcalibration.obj
- .ARM.extab     0x00064544        0xc C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__GET_POWER_FAIL.obj
- .ARM.extab     0x00064550        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version.obj
- .ARM.extab     0x00064550        0xc C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version_byte.obj
- .ARM.extab     0x0006455c        0xc C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_P.obj
- .ARM.extab     0x00064568        0xc C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_R.obj
- .ARM.extab     0x00064574        0xc C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_SD_USB.obj
- .ARM.extab     0x00064580        0xc C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__lcdSetBlank.obj
- .ARM.extab     0x0006458c        0xc C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__mountSD.obj
- .ARM.extab     0x00064598        0xc C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__mountUSB.obj
- .ARM.extab     0x000645a4        0xc C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__REBOOT.obj
- .ARM.extab     0x000645b0        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__req_touchcalibration.obj
- .ARM.extab     0x000645b0        0xc C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__SET_POWER_FAIL_SHUTDOWN.obj
- .ARM.extab     0x000645bc        0xc C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__SHUTDOWN.obj
- .ARM.extab     0x000645c8        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__ST_TRANSLATE.obj
- .ARM.extab     0x000645c8        0xc C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__umountSD.obj
- .ARM.extab     0x000645d4        0xc C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__umountUSB.obj
- .ARM.extab     0x000645e0        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL.obj
- .ARM.extab     0x000645e0        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_PRIVATE.obj
- .ARM.extab     0x000645e0        0xc C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_SD.obj
- .ARM.extab     0x000645ec        0xc C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_USB.obj
+ .ARM.extab     0x00064544        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__BYTE_TO_ASCII.obj
+ .ARM.extab     0x00064544        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__check_touchcalibration.obj
+ .ARM.extab     0x00064544        0xc C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__GET_POWER_FAIL.obj
+ .ARM.extab     0x00064550        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version.obj
+ .ARM.extab     0x00064550        0xc C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version_byte.obj
+ .ARM.extab     0x0006455c        0xc C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_P.obj
+ .ARM.extab     0x00064568        0xc C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_R.obj
+ .ARM.extab     0x00064574        0xc C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_SD_USB.obj
+ .ARM.extab     0x00064580        0xc C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__lcdSetBlank.obj
+ .ARM.extab     0x0006458c        0xc C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__mountSD.obj
+ .ARM.extab     0x00064598        0xc C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__mountUSB.obj
+ .ARM.extab     0x000645a4        0xc C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__REBOOT.obj
+ .ARM.extab     0x000645b0        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__req_touchcalibration.obj
+ .ARM.extab     0x000645b0        0xc C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__SET_POWER_FAIL_SHUTDOWN.obj
+ .ARM.extab     0x000645bc        0xc C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__SHUTDOWN.obj
+ .ARM.extab     0x000645c8        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__ST_TRANSLATE.obj
+ .ARM.extab     0x000645c8        0xc C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__umountSD.obj
+ .ARM.extab     0x000645d4        0xc C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__umountUSB.obj
+ .ARM.extab     0x000645e0        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL.obj
+ .ARM.extab     0x000645e0        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_PRIVATE.obj
+ .ARM.extab     0x000645e0        0xc C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_SD.obj
+ .ARM.extab     0x000645ec        0xc C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_USB.obj
  .ARM.extab     0x000645f8        0x0 c:/progra~2/codeso~1/source~1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1\libgcc.a(_fixsfdi.o)
  .ARM.extab     0x000645f8        0x0 c:/progra~2/codeso~1/source~1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1\libgcc.a(_fixdfdi.o)
  .ARM.extab     0x000645f8        0x0 c:/progra~2/codeso~1/source~1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1\libgcc.a(_fixunssfdi.o)
@@ -2433,29 +2433,29 @@ LOAD c:/progra~2/codeso~1/source~1/bin/../arm-none-linux-gnueabi/libc/usr/lib/cr
  .ARM.exidx     0x00065a30       0x40 vt3_code/vt3_disp.obj
                                  0x80 (size before relaxing)
  .ARM.exidx     0x00065a70        0x8 vt3_code/vt3_slaves.obj
- .ARM.exidx     0x00065a78        0x8 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__BYTE_TO_ASCII.obj
+ .ARM.exidx     0x00065a78        0x8 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__BYTE_TO_ASCII.obj
                                  0x10 (size before relaxing)
- .ARM.exidx     0x00065a80        0x8 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__check_touchcalibration.obj
- .ARM.exidx     0x00065a88       0x10 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__GET_POWER_FAIL.obj
- .ARM.exidx     0x00065a98       0x10 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version.obj
- .ARM.exidx     0x00065aa8       0x10 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version_byte.obj
- .ARM.exidx     0x00065ab8       0x10 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_P.obj
- .ARM.exidx     0x00065ac8       0x10 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_R.obj
- .ARM.exidx     0x00065ad8       0x10 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_SD_USB.obj
- .ARM.exidx     0x00065ae8       0x10 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__lcdSetBlank.obj
- .ARM.exidx     0x00065af8        0x8 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__mountSD.obj
- .ARM.exidx     0x00065b00        0x8 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__mountUSB.obj
- .ARM.exidx     0x00065b08       0x10 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__REBOOT.obj
- .ARM.exidx     0x00065b18        0x8 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__req_touchcalibration.obj
- .ARM.exidx     0x00065b20       0x10 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__SET_POWER_FAIL_SHUTDOWN.obj
- .ARM.exidx     0x00065b30       0x10 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__SHUTDOWN.obj
- .ARM.exidx     0x00065b40        0x8 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__ST_TRANSLATE.obj
- .ARM.exidx     0x00065b48        0x8 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__umountSD.obj
- .ARM.exidx     0x00065b50        0x8 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__umountUSB.obj
- .ARM.exidx     0x00065b58        0x8 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL.obj
- .ARM.exidx     0x00065b60        0x8 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_PRIVATE.obj
- .ARM.exidx     0x00065b68       0x10 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_SD.obj
- .ARM.exidx     0x00065b78       0x18 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_USB.obj
+ .ARM.exidx     0x00065a80        0x8 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__check_touchcalibration.obj
+ .ARM.exidx     0x00065a88       0x10 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__GET_POWER_FAIL.obj
+ .ARM.exidx     0x00065a98       0x10 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version.obj
+ .ARM.exidx     0x00065aa8       0x10 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version_byte.obj
+ .ARM.exidx     0x00065ab8       0x10 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_P.obj
+ .ARM.exidx     0x00065ac8       0x10 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_R.obj
+ .ARM.exidx     0x00065ad8       0x10 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_SD_USB.obj
+ .ARM.exidx     0x00065ae8       0x10 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__lcdSetBlank.obj
+ .ARM.exidx     0x00065af8        0x8 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__mountSD.obj
+ .ARM.exidx     0x00065b00        0x8 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__mountUSB.obj
+ .ARM.exidx     0x00065b08       0x10 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__REBOOT.obj
+ .ARM.exidx     0x00065b18        0x8 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__req_touchcalibration.obj
+ .ARM.exidx     0x00065b20       0x10 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__SET_POWER_FAIL_SHUTDOWN.obj
+ .ARM.exidx     0x00065b30       0x10 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__SHUTDOWN.obj
+ .ARM.exidx     0x00065b40        0x8 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__ST_TRANSLATE.obj
+ .ARM.exidx     0x00065b48        0x8 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__umountSD.obj
+ .ARM.exidx     0x00065b50        0x8 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__umountUSB.obj
+ .ARM.exidx     0x00065b58        0x8 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL.obj
+ .ARM.exidx     0x00065b60        0x8 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_PRIVATE.obj
+ .ARM.exidx     0x00065b68       0x10 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_SD.obj
+ .ARM.exidx     0x00065b78       0x18 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_USB.obj
                                  0x10 (size before relaxing)
  .ARM.exidx     0x00065b90        0x8 c:/progra~2/codeso~1/source~1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1\libgcc.a(_fixsfdi.o)
  .ARM.exidx     0x00065b98        0x8 c:/progra~2/codeso~1/source~1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1\libgcc.a(_fixdfdi.o)
@@ -2627,31 +2627,31 @@ LOAD c:/progra~2/codeso~1/source~1/bin/../arm-none-linux-gnueabi/libc/usr/lib/cr
                 0x0006e718                vt3_current_screen
  .data          0x0006e71a        0x0 vt3_code/vt3_slaves.obj
  .data          0x0006e71a        0x0 extra/vt3_extra.obj
- .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_extra.obj
- .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__ARR_BYTE_version.obj
- .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__BYTE_TO_ASCII.obj
- .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__check_touchcalibration.obj
- .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__GET_POWER_FAIL.obj
- .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version.obj
- .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version_byte.obj
- .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_P.obj
- .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_R.obj
- .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_SD_USB.obj
- .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__lcdSetBlank.obj
- .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__mountSD.obj
- .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__mountUSB.obj
- .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__REBOOT.obj
- .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__req_touchcalibration.obj
- .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__SET_POWER_FAIL_SHUTDOWN.obj
- .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__SHUTDOWN.obj
- .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__ST_TRANSLATE.obj
- .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__umountSD.obj
- .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__umountUSB.obj
- .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL.obj
- .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_ENUM.obj
- .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_PRIVATE.obj
- .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_SD.obj
- .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_USB.obj
+ .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_extra.obj
+ .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__ARR_BYTE_version.obj
+ .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__BYTE_TO_ASCII.obj
+ .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__check_touchcalibration.obj
+ .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__GET_POWER_FAIL.obj
+ .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version.obj
+ .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version_byte.obj
+ .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_P.obj
+ .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_R.obj
+ .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_SD_USB.obj
+ .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__lcdSetBlank.obj
+ .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__mountSD.obj
+ .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__mountUSB.obj
+ .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__REBOOT.obj
+ .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__req_touchcalibration.obj
+ .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__SET_POWER_FAIL_SHUTDOWN.obj
+ .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__SHUTDOWN.obj
+ .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__ST_TRANSLATE.obj
+ .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__umountSD.obj
+ .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__umountUSB.obj
+ .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL.obj
+ .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_ENUM.obj
+ .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_PRIVATE.obj
+ .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_SD.obj
+ .data          0x0006e71a        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_USB.obj
  .data          0x0006e71a        0x0 c:/progra~2/codeso~1/source~1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1\libgcc.a(_udivsi3.o)
  .data          0x0006e71a        0x0 c:/progra~2/codeso~1/source~1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1\libgcc.a(_divsi3.o)
  .data          0x0006e71a        0x0 c:/progra~2/codeso~1/source~1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1\libgcc.a(_arm_addsubdf3.o)
@@ -2768,31 +2768,31 @@ LOAD c:/progra~2/codeso~1/source~1/bin/../arm-none-linux-gnueabi/libc/usr/lib/cr
                 0x00075e7c                vt3_force_redraw_screen_background
  .bss           0x00075e7d        0x0 vt3_code/vt3_slaves.obj
  .bss           0x00075e7d        0x0 extra/vt3_extra.obj
- .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_extra.obj
- .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__ARR_BYTE_version.obj
- .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__BYTE_TO_ASCII.obj
- .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__check_touchcalibration.obj
- .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__GET_POWER_FAIL.obj
- .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version.obj
- .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version_byte.obj
- .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_P.obj
- .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_R.obj
- .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_SD_USB.obj
- .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__lcdSetBlank.obj
- .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__mountSD.obj
- .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__mountUSB.obj
- .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__REBOOT.obj
- .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__req_touchcalibration.obj
- .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__SET_POWER_FAIL_SHUTDOWN.obj
- .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__SHUTDOWN.obj
- .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__ST_TRANSLATE.obj
- .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__umountSD.obj
- .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__umountUSB.obj
- .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL.obj
- .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_ENUM.obj
- .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_PRIVATE.obj
- .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_SD.obj
- .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_USB.obj
+ .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_extra.obj
+ .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__ARR_BYTE_version.obj
+ .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__BYTE_TO_ASCII.obj
+ .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__check_touchcalibration.obj
+ .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__GET_POWER_FAIL.obj
+ .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version.obj
+ .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version_byte.obj
+ .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_P.obj
+ .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_R.obj
+ .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_SD_USB.obj
+ .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__lcdSetBlank.obj
+ .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__mountSD.obj
+ .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__mountUSB.obj
+ .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__REBOOT.obj
+ .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__req_touchcalibration.obj
+ .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__SET_POWER_FAIL_SHUTDOWN.obj
+ .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__SHUTDOWN.obj
+ .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__ST_TRANSLATE.obj
+ .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__umountSD.obj
+ .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__umountUSB.obj
+ .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL.obj
+ .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_ENUM.obj
+ .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_PRIVATE.obj
+ .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_SD.obj
+ .bss           0x00075e7d        0x0 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_USB.obj
  .bss           0x00075e7d        0x0 c:/progra~2/codeso~1/source~1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1\libgcc.a(_udivsi3.o)
  .bss           0x00075e7d        0x0 c:/progra~2/codeso~1/source~1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1\libgcc.a(_divsi3.o)
  .bss           0x00075e7d        0x0 c:/progra~2/codeso~1/source~1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1\libgcc.a(_arm_addsubdf3.o)
@@ -3112,55 +3112,55 @@ LOAD c:/progra~2/codeso~1/source~1/bin/../arm-none-linux-gnueabi/libc/usr/lib/cr
  .ARM.attributes
                 0x00000a75       0x35 extra/vt3_extra.obj
  .ARM.attributes
-                0x00000aaa       0x35 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_extra.obj
+                0x00000aaa       0x35 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_extra.obj
  .ARM.attributes
-                0x00000adf       0x35 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__ARR_BYTE_version.obj
+                0x00000adf       0x35 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__ARR_BYTE_version.obj
  .ARM.attributes
-                0x00000b14       0x35 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__BYTE_TO_ASCII.obj
+                0x00000b14       0x35 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__BYTE_TO_ASCII.obj
  .ARM.attributes
-                0x00000b49       0x35 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__check_touchcalibration.obj
+                0x00000b49       0x35 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__check_touchcalibration.obj
  .ARM.attributes
-                0x00000b7e       0x35 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__GET_POWER_FAIL.obj
+                0x00000b7e       0x35 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__GET_POWER_FAIL.obj
  .ARM.attributes
-                0x00000bb3       0x35 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version.obj
+                0x00000bb3       0x35 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version.obj
  .ARM.attributes
-                0x00000be8       0x35 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version_byte.obj
+                0x00000be8       0x35 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version_byte.obj
  .ARM.attributes
-                0x00000c1d       0x35 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_P.obj
+                0x00000c1d       0x35 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_P.obj
  .ARM.attributes
-                0x00000c52       0x35 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_R.obj
+                0x00000c52       0x35 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_R.obj
  .ARM.attributes
-                0x00000c87       0x35 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_SD_USB.obj
+                0x00000c87       0x35 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_SD_USB.obj
  .ARM.attributes
-                0x00000cbc       0x35 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__lcdSetBlank.obj
+                0x00000cbc       0x35 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__lcdSetBlank.obj
  .ARM.attributes
-                0x00000cf1       0x35 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__mountSD.obj
+                0x00000cf1       0x35 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__mountSD.obj
  .ARM.attributes
-                0x00000d26       0x35 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__mountUSB.obj
+                0x00000d26       0x35 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__mountUSB.obj
  .ARM.attributes
-                0x00000d5b       0x35 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__REBOOT.obj
+                0x00000d5b       0x35 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__REBOOT.obj
  .ARM.attributes
-                0x00000d90       0x35 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__req_touchcalibration.obj
+                0x00000d90       0x35 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__req_touchcalibration.obj
  .ARM.attributes
-                0x00000dc5       0x35 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__SET_POWER_FAIL_SHUTDOWN.obj
+                0x00000dc5       0x35 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__SET_POWER_FAIL_SHUTDOWN.obj
  .ARM.attributes
-                0x00000dfa       0x35 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__SHUTDOWN.obj
+                0x00000dfa       0x35 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__SHUTDOWN.obj
  .ARM.attributes
-                0x00000e2f       0x35 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__ST_TRANSLATE.obj
+                0x00000e2f       0x35 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__ST_TRANSLATE.obj
  .ARM.attributes
-                0x00000e64       0x35 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__umountSD.obj
+                0x00000e64       0x35 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__umountSD.obj
  .ARM.attributes
-                0x00000e99       0x35 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__umountUSB.obj
+                0x00000e99       0x35 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__umountUSB.obj
  .ARM.attributes
-                0x00000ece       0x35 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL.obj
+                0x00000ece       0x35 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL.obj
  .ARM.attributes
-                0x00000f03       0x35 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_ENUM.obj
+                0x00000f03       0x35 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_ENUM.obj
  .ARM.attributes
-                0x00000f38       0x35 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_PRIVATE.obj
+                0x00000f38       0x35 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_PRIVATE.obj
  .ARM.attributes
-                0x00000f6d       0x35 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_SD.obj
+                0x00000f6d       0x35 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_SD.obj
  .ARM.attributes
-                0x00000fa2       0x35 C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_USB.obj
+                0x00000fa2       0x35 C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_USB.obj
  .ARM.attributes
                 0x00000fd7       0x1f c:/progra~2/codeso~1/source~1/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1\libgcc.a(_udivsi3.o)
  .ARM.attributes
@@ -3267,31 +3267,31 @@ LOAD c:/progra~2/codeso~1/source~1/bin/../arm-none-linux-gnueabi/libc/usr/lib/cr
  .comment       0x000007ba       0x2b vt3_code/vt3_disp.obj
  .comment       0x000007e5       0x2b vt3_code/vt3_slaves.obj
  .comment       0x00000810       0x2b extra/vt3_extra.obj
- .comment       0x0000083b       0x2b C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_extra.obj
- .comment       0x00000866       0x2b C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__ARR_BYTE_version.obj
- .comment       0x00000891       0x2b C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__BYTE_TO_ASCII.obj
- .comment       0x000008bc       0x2b C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__check_touchcalibration.obj
- .comment       0x000008e7       0x2b C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__GET_POWER_FAIL.obj
- .comment       0x00000912       0x2b C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version.obj
- .comment       0x0000093d       0x2b C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version_byte.obj
- .comment       0x00000968       0x2b C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_P.obj
- .comment       0x00000993       0x2b C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_R.obj
- .comment       0x000009be       0x2b C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__INIT_SD_USB.obj
- .comment       0x000009e9       0x2b C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__lcdSetBlank.obj
- .comment       0x00000a14       0x2b C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__mountSD.obj
- .comment       0x00000a3f       0x2b C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__mountUSB.obj
- .comment       0x00000a6a       0x2b C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__REBOOT.obj
- .comment       0x00000a95       0x2b C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__req_touchcalibration.obj
- .comment       0x00000ac0       0x2b C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__SET_POWER_FAIL_SHUTDOWN.obj
- .comment       0x00000aeb       0x2b C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__SHUTDOWN.obj
- .comment       0x00000b16       0x2b C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__ST_TRANSLATE.obj
- .comment       0x00000b41       0x2b C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__umountSD.obj
- .comment       0x00000b6c       0x2b C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__umountUSB.obj
- .comment       0x00000b97       0x2b C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL.obj
- .comment       0x00000bc2       0x2b C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_ENUM.obj
- .comment       0x00000bed       0x2b C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_PRIVATE.obj
- .comment       0x00000c18       0x2b C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_SD.obj
- .comment       0x00000c43       0x2b C:/Users/hurdj00/Desktop/HARTST~1.1/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_USB.obj
+ .comment       0x0000083b       0x2b C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_extra.obj
+ .comment       0x00000866       0x2b C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__ARR_BYTE_version.obj
+ .comment       0x00000891       0x2b C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__BYTE_TO_ASCII.obj
+ .comment       0x000008bc       0x2b C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__check_touchcalibration.obj
+ .comment       0x000008e7       0x2b C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__GET_POWER_FAIL.obj
+ .comment       0x00000912       0x2b C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version.obj
+ .comment       0x0000093d       0x2b C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__get_prj_version_byte.obj
+ .comment       0x00000968       0x2b C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_P.obj
+ .comment       0x00000993       0x2b C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_BYTEARRAY_R.obj
+ .comment       0x000009be       0x2b C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__INIT_SD_USB.obj
+ .comment       0x000009e9       0x2b C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__lcdSetBlank.obj
+ .comment       0x00000a14       0x2b C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__mountSD.obj
+ .comment       0x00000a3f       0x2b C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__mountUSB.obj
+ .comment       0x00000a6a       0x2b C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__REBOOT.obj
+ .comment       0x00000a95       0x2b C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__req_touchcalibration.obj
+ .comment       0x00000ac0       0x2b C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__SET_POWER_FAIL_SHUTDOWN.obj
+ .comment       0x00000aeb       0x2b C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__SHUTDOWN.obj
+ .comment       0x00000b16       0x2b C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__ST_TRANSLATE.obj
+ .comment       0x00000b41       0x2b C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__umountSD.obj
+ .comment       0x00000b6c       0x2b C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__umountUSB.obj
+ .comment       0x00000b97       0x2b C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL.obj
+ .comment       0x00000bc2       0x2b C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_ENUM.obj
+ .comment       0x00000bed       0x2b C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_PRIVATE.obj
+ .comment       0x00000c18       0x2b C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_SD.obj
+ .comment       0x00000c43       0x2b C:/Users/hurdj00/Desktop/Harstra/code/Tera_7/__OBJE~1/vt3_POU__WRITE_EL_TO_USB.obj
 
 .debug
  *(.debug)
